@@ -78,15 +78,6 @@ ItaPoly.prototype.createProgram = function( _frag, _callback ){
 
 };
 
-ItaPoly.prototype.setTime = function( _time ){
-
-  var it = this;
-
-  it.manualTime = true;
-  it.time = _time;
-
-}
-
 ItaPoly.prototype.setFloat = function( _name, _param ){
 
 	var it = this;
@@ -156,7 +147,7 @@ ItaPoly.prototype.prepareTexture = function( _name ){
 
   }
 
-}
+};
 
 ItaPoly.prototype.setSampler2D = function( _name, _param ){
 
