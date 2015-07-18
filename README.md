@@ -1,7 +1,7 @@
 # ItaPoly
 
-GLSL fragment shading on rectangle library
-useful for experient of fractal, filter, raymarch, etc...
+GLSL fragment shading on rectangle library  
+useful for experient of fractal, filter, raymarch, etc...  
 
 ### Usage
 
@@ -53,27 +53,27 @@ useful for experient of fractal, filter, raymarch, etc...
 
 ### Methods
 
-- `ItaPoly( width (number), height (number) )`
-	create ItaPoly Object wow
+- `ItaPoly( width (number), height (number) )`  
+	create ItaPoly Object wow  
 
-- `ItaPoly.createProgram( frag (string), callback (function) )`
-	create the program wow
+- `ItaPoly.createProgram( frag (string), callback (function) )`  
+	create the program wow  
 
-- `ItaPoly.update()`
-	draw once wow
+- `ItaPoly.update()`  
+	draw once wow  
 
-- `ItaPoly.setFloat( name (string), param (number) )`
-- `ItaPoly.setVec2( name (string), param ([ number, number ]) )`
-- `ItaPoly.setVec3( name (string), param ([ number, number, number ]) )`
-- `ItaPoly.setVec4( name (string), param ([ number, number, number, number ]) )`
-- `ItaPoly.setInt( name (string), param (number) )`
-- `ItaPoly.setSampler2D( name (string), texture (image or canvas or video) )`
-- `ItaPoly.setSampler2DFromArray( name (string), array ([ number, number, number, number, ... ]), width (number), height (number) )`
-	set uniform variables wow
+- `ItaPoly.setFloat( name (string), param (number) )`  
+- `ItaPoly.setVec2( name (string), param ([ number, number ]) )`  
+- `ItaPoly.setVec3( name (string), param ([ number, number, number ]) )`  
+- `ItaPoly.setVec4( name (string), param ([ number, number, number, number ]) )`  
+- `ItaPoly.setInt( name (string), param (number) )`  
+- `ItaPoly.setSampler2D( name (string), texture (image or canvas or video) )`  
+- `ItaPoly.setSampler2DFromArray( name (string), array ([ number, number, number, number, ... ]), width (number), height (number) )`  
+	set uniform variables wow  
 
 ### Events
 
-- `ItaPoly.onMouseDown( mouseEvent )`
-- `ItaPoly.onMouseMove( mouseEvent )`
-- `ItaPoly.onMouseUp( mouseEvent )`
-	events wow
+- `ItaPoly.onMouseDown( mouseEvent )`  
+- `ItaPoly.onMouseMove( mouseEvent )`  
+- `ItaPoly.onMouseUp( mouseEvent )`  
+	events wow  
